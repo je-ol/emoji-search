@@ -1,0 +1,89 @@
+body {
+  background-color: #CBF3F0;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+h1 {
+  color: #2EC4B6;
+}
+.search-input {
+  height: 40px;
+  width: 220px;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-bottom: 20px;
+  background-color: #FFBF69;
+  color: white;
+  font-weight: 700;
+}
+.search-container button {
+background-color: #FF9F1C;
+color: white;
+box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.151);
+}
+
+div input {
+  height: 3rem;
+  width: 3rem;
+  margin: 10px;
+  text-align: center;
+  background-color: #2EC4B6;
+  border-radius: 50%;
+  border-style: none;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding-bottom: 2px;
+
+}
